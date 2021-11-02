@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site pessoal - Projetos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <h1 class="marca">E.</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="projetos.html">projetos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                    <li>
+                        <a href="#" onclick="MostrarCampoPesquisar()"><i class="fa fa-search"></i></a></li>
+                        <span id="campo">
+                            <input type="search" placeholder="Pesquisar">
+                        </span>
+                </ul>
+            </nav>
+        </header>
+        <main class="conteudo-principal">
+            <div class="coluna-texto">
+                <h2 class="texto-titulo">Projetos</h2>
+                <h3 class="titulo-projeto">Calculadora</h3>
+                <p class="texto-corpo">
+                    Projeto desenvolvido utilizando javascript, html e css de uma Calculadora
+                    de média simples.
+                </p>
+                <p class="linha-seta">
+                <a href="#" onclick="ProximoProjeto()"><i class="fa fa-chevron-right"></i></a>
+                </p>
+
+                <ul class="redes-sociais">
+                    <li><a href="https://github.com/EduardoCigaloti" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/eduardo-cigaloti-07b055134/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/eduardocigaloti/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="coluna-foto">
+                <div class="fundo"></div>
+                <img src="images/calculadora.png" alt="Foto da calculadora" class="foto-perfil">
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
